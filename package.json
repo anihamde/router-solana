@@ -1,0 +1,23 @@
+{
+  "name": "router_solana",
+  "version": "0.0.1",
+  "description": "Basic Router for Solana DEXs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "router": "npm run build && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ellipsis-labs/phoenix-sdk": "^2.0.3",
+    "@meteora-ag/dlmm": "^1.2.2",
+    "@solana/web3.js": "^1.95.3",
+    "@types/yargs": "^17.0.33",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6"
+  }
+}
